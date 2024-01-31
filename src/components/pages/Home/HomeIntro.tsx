@@ -4,7 +4,7 @@ import { MainButton } from "~/components/MainButton";
 export const HomeIntro = component$(() => {
   return (
     <div class="flex justify-center">
-      <div class="flex max-w-[1600px] gap-8 px-8 py-12">
+      <div class="flex max-w-[1600px] gap-8 px-8 py-[140px]">
         <div class="flex w-[60%] flex-col gap-4">
           <span class="w-fit bg-gradient-to-r from-secondary-purple to-primary-green bg-clip-text text-[90px] font-[800] text-transparent">
             The best internet

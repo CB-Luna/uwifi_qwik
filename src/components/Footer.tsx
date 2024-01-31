@@ -6,7 +6,7 @@ export const Footer = component$(() => {
     <>
       <footer class="relative z-10 flex min-h-[200px] w-full flex-col items-center justify-center gap-14 bg-black p-16 text-white">
         <span class="purple-ball-blured" />
-        <MainButton isHollow whiteBorder>
+        <MainButton isHollow whiteBorder link="/#">
           Discover all we have for U
         </MainButton>
         <span class="text-[24px]">Live, Feel the Experience.</span>
