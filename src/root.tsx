@@ -21,10 +21,13 @@ export default component$(() => {
       <head>
         <meta charSet="utf-8" />
         <link rel="manifest" href="/manifest.json" />
+        <meta name="robots" content="noindex" />
+        {/* favicon */}
+        <link rel="icon" href="/favicon.svg" />
         <RouterHead />
         <ServiceWorkerRegister />
       </head>
-      <body lang="en">
+      <body lang="en" class="text-white">
         <RouterOutlet />
       </body>
     </QwikCityProvider>
