@@ -1,6 +1,8 @@
 import { component$ } from "@builder.io/qwik";
 import { Markdown } from "./Markdown";
 
+import { FaBarsSolid } from "@qwikest/icons/font-awesome";
+
 export const Navbar = component$(() => {
   const navRoutes = [
     { name: "HOME", path: "/" },
@@ -56,7 +58,9 @@ export const Navbar = component$(() => {
             height={40}
           />
         </div>
-        <div class="min-[800px]:hidden">Menu</div>
+        <div class="text-[28px] min-[800px]:hidden">
+          <FaBarsSolid />
+        </div>
       </nav>
       <style
         dangerouslySetInnerHTML="
