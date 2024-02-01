@@ -6,7 +6,7 @@ import { Markdown } from "~/components/Markdown";
 export const HomeInfo = component$(() => {
   return (
     <div class="flex justify-center">
-      <div class="flex max-w-[1600px] items-center gap-8 px-8 py-12 max-[900px]:flex-col max-[500px]:px-4">
+      <div class="flex max-w-[1600px] items-center justify-evenly gap-8 px-8 py-12 max-[900px]:flex-col max-[500px]:px-4">
         <div class="flex flex-col gap-8 text-[50px] font-[700] max-[800px]:text-[40px] min-[900px]:w-[50%]">
           <div>
             Don't overpay for a{" "}
@@ -36,7 +36,7 @@ export const HomeInfo = component$(() => {
             </span>
           </div>
         </div>
-        <div class="flex h-fit min-w-[260px] flex-col items-center gap-6 rounded-xl bg-gradient-to-b from-button-green to-secondary-purple px-6 py-12 min-[900px]:w-[50%]">
+        <div class="flex h-fit min-w-[260px] max-w-[500px] flex-col items-center gap-6 rounded-xl bg-gradient-to-b from-button-green to-secondary-purple px-6 py-12 min-[900px]:w-[50%]">
           <div class="text-[34px] font-[600]">SUPER 5G</div>
           <div class="flex items-center gap-2">
             <span class="text-[80px] font-[700] max-[900px]:text-[60px]">
