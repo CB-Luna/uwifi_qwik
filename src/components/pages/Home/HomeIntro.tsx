@@ -19,9 +19,9 @@ export const HomeIntro = component$(() => {
             />
           </div>
           <p class="text-[36px] leading-10">
-            In our fast-paced world, imagine a high-speed mobile internet
-            service that keeps you connected seamlessly and outpaces the
-            competition, all at a pleasantly surprising cost!
+            In our fast-paced world, imagine a high-speed home internet service
+            that keeps you connected, outpaces the competition, all at a
+            pleasantly surprising low cost!
           </p>
           <div class="flex items-center gap-4">
             <MainButton isHollow>BUY NOW</MainButton>

@@ -10,7 +10,7 @@ export const HomeInfo = component$(() => {
         <div class="flex w-[60%] flex-col gap-8 text-[50px] font-[700]">
           <div>
             Don't overpay for a{" "}
-            <span class="text-primary-green">stable 5G</span> home internet
+            <span class="text-primary-green">5G home internet </span>{" "}
             experience.
           </div>
           <div>

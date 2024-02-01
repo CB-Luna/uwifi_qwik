@@ -15,9 +15,9 @@ export const HomeACP = component$(() => {
           We are an <span class="text-secondary-purple">ACP</span> provider
         </div>
         <p class="max-w-[900px] text-center text-[28px] leading-9">
-          We are keeping people connected by participation in the FCC's
+          We're keeping people connected by participation in the FCC's
           Affordable Connectivity Program. Qualifying households will be able to
-          receive a $30/mo discount on their
+          receive a $30/mo discount on their U-wifi Plan.
         </p>
         <div class="flex items-center gap-4 py-12">
           <img
@@ -47,7 +47,7 @@ export const HomeACP = component$(() => {
             {
               icon: FaBoxOpenSolid,
               title: "Activate",
-              text: "Once you're approved, we'll send your 5G device for free. When your instructions and you’ll be connected in no time!",
+              text: "Once you're approved, we'll send your 5G device for free. When your package arrives, just follow the instructions and you'll be connected in no time!",
             },
             {
               icon: FaWifiSolid,
