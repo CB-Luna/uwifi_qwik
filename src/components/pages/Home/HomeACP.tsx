@@ -19,7 +19,7 @@ export const HomeACP = component$(() => {
           Affordable Connectivity Program. Qualifying households will be able to
           receive a $30/mo discount on their U-wifi Plan.
         </p>
-        <div class="flex items-center gap-4 py-12">
+        <div class="flex items-center gap-4 py-12 max-[900px]:flex-col">
           <img
             src="https://uwif-astro-web.vercel.app/image/fc.png"
             alt=""
@@ -32,12 +32,12 @@ export const HomeACP = component$(() => {
             <span>PROGRAM</span>
           </div>
         </div>
-        <div class="flex items-center gap-4">
+        <div class="flex items-center gap-4 max-[800px]:flex-col">
           <MainButton isHollow>BUY NOW</MainButton>
           <span class="text-[24px] font-[600]">OR</span>
           <MainButton>APPLY FOR FREE WIFI</MainButton>
         </div>
-        <div class="flex items-center gap-4 py-16">
+        <div class="flex items-center gap-4 py-16 max-[1000px]:flex-col">
           {[
             {
               icon: FaPencilSolid,
@@ -59,7 +59,7 @@ export const HomeACP = component$(() => {
               return (
                 <div
                   key={i}
-                  class="flex h-[500px] max-w-[300px] flex-col items-center gap-4 rounded-2xl border-2 border-white p-8 text-center text-[22px] font-[400] text-white "
+                  class="flex h-[420px] max-w-[300px] flex-col items-center gap-4 rounded-2xl border-2 border-white p-8 text-center text-[20px] font-[400] text-white max-[1000px]:h-fit "
                 >
                   <div class="mb-4 text-[50px]">
                     <item.icon></item.icon>

@@ -16,7 +16,7 @@ export const HomePlus = component$(() => {
           </h2>
           <div class="h-0 rounded-full border-2"></div>
         </div>
-        <div class="mb-4 mt-[120px] text-[80px] font-[700]">
+        <div class="mb-4 mt-[120px] text-[80px] font-[700] max-[600px]:text-[60px]">
           <span class="text-primary-green">FREE</span> TABLET!*
         </div>
         <img

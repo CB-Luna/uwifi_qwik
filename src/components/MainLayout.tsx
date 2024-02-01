@@ -3,6 +3,7 @@ import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 
 export const MainLayout = component$(({ data }: { data: any }) => {
+  console.log(data);
   return (
     <>
       <Navbar />
