@@ -39,7 +39,7 @@ export const HowItWorks = component$(() => {
     <SectionSteps />
 
     <div class="flex flex-col p-10 md:text-[42px] text-3xl md:items-start my-5 items-center font-bold justify-center">
-      <h2><span class="text-primary-green">U-Wifi</span> Mobile App</h2>
+      <h2><span class="text-primary-green">U-wifi</span> Mobile App</h2>
       <p>Take control of your home internet with one <span class="text-secondary-purple">simple app</span> </p>
     </div>
 

@@ -12,11 +12,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: "Home | U-Wifi",
+  title: "Home | U-wifi",
   meta: [
     {
       name: "description",
-      content: "U-Wifi.",
+      content: "U-wifi.",
     },
   ],
 };
