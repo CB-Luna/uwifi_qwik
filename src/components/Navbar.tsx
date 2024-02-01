@@ -6,7 +6,7 @@ export const Navbar = component$(() => {
     { name: "HOME", path: "/" },
     { name: "ACP", path: "/#acp" },
     { name: "PLAN", path: "/#plan" },
-    { name: "HOW IT WORKS", path: "/how" },
+    { name: "HOW IT WORKS", path: "/howitworks" },
     { name: "FAQ", path: "/#faq" },
   ];
 
