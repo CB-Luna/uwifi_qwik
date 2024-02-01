@@ -6,7 +6,7 @@ import { HowItWorks } from "~/components/pages/HowItWorks";
 export default component$(() => {
   return (
     <>
-      <MainLayout>
+      <MainLayout data={null}>
         <HowItWorks />
       </MainLayout>
     </>

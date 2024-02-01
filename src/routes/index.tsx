@@ -5,7 +5,7 @@ import { Home } from "~/components/pages/Home";
 
 export default component$(() => {
   return (
-    <MainLayout>
+    <MainLayout data={null}>
       <Home />
     </MainLayout>
   );
