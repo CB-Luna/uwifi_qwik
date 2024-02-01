@@ -31,16 +31,16 @@ export const HowItWorks = component$(() => {
   }]
 
   return <div class="flex flex-col  bg-black justify-center items-center" id="header">
-    <div class="flex flex-col text-[42px] md:items-start items-center font-bold justify-center">
-      <h1><span class="text-primary-green">How</span> it works?</h1>
-      <p>Simple set up in less than <span class="text-primary-green">15 minutes!</span></p>
+    <div class="w-full flex flex-col items-start  justify-center mt-[2rem] p-10 gap-5">
+      <h1 class="md:text-[60px] text-[46px]"><span class="text-primary-green">How</span> it works?</h1>
+      <p class="font-bold md:text-[40px] text-3xl">Simple. Unbox and plug it in!</p>
     </div>
 
     <SectionSteps />
 
-    <div class="flex flex-col p-10 md:text-[42px] text-3xl md:items-start my-5 items-center font-bold justify-center">
-      <h2><span class="text-primary-green">U-Wifi</span> Mobile App</h2>
-      <p>Take control of your home internet with one <span class="text-secondary-purple">simple app</span> </p>
+    <div class="flex flex-col p-10  md:items-start my-5 items-center justify-center gap-5">
+      <h2 class="md:text-[60px] text-[46px]"><span class="text-primary-green">U-Wifi</span> Mobile App</h2>
+      <p class="md:text-[42px] text-3xl font-bold">Take control of your home internet with one <span class="text-secondary-purple">simple app</span> </p>
     </div>
 
     {dataParagraph.map((paragraph: any, key: any) => (
@@ -70,14 +70,14 @@ export const HowItWorks = component$(() => {
       </div>
     </div>
 
-    <h2 class="md:text-[40px] text-3xl text-center font-bold">Does the placement of your 5G gateway matter?</h2>
-    <div class="flex flex-wrap gap-5 items-center justify-center p-10 my-5">
+    <h2 class="md:text-[40px] text-3xl text-center font-bold mt-5">Does the placement of your 5G gateway matter?</h2>
+    <div class="flex flex-wrap gap-5 items-center md:justify-between justify-center p-10 my-5">
       <div class="flex flex-col md:w-2/3 w-full justify-center items-start gap-4">
-        <h2 class="md:text-3xl text-xl font-bold">How our 5G internet is different</h2>
-        <p class="md:text-2xl text-lg text-justify">window facilitates a strong connection to the closest 5G cell tower or data hub, resulting in faster download and upload speeds, lower latency, and increased capacity compared to locations with weaker connections.</p>
+        <h2 class="md:text-3xl text-xl font-bold">Yes, and here’s why.</h2>
+        <p class="md:text-2xl text-lg text-justify">Similar to plants thriving on sunlight, your gateway requires 5G radio waves for optimal wireless performance. Placing the gateway near a window facilitates a strong connection to the closest 5G cell tower or data hub, resulting in faster download and upload speeds, lower latency, and increased capacity compared to locations with weaker connections.</p>
         <MainButton isHollow>Device Details</MainButton>
       </div>
-      <div class="md:w-[20%] w-2/3 flex flex-row bg-slate-400 h-[300px] rounded-lg"></div>
+      <div class="md:w-1/4 w-2/3 flex flex-row bg-slate-400 h-[300px] rounded-lg"></div>
     </div>
   </div>;
 });
