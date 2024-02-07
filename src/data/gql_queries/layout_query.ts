@@ -1,0 +1,55 @@
+import { btnContent, mediaUrl } from "../constants";
+
+export const layoutQuery = (locale: string) => `
+query QueryLayout {
+  uwifiMenu{
+   data{
+     attributes{
+       Logo{
+         Text
+         Link
+         Icon{
+           data{
+             attributes{
+               url
+               alternativeText
+               caption
+             }
+           }
+         }
+       }
+       ContactOptions{
+         ${btnContent}
+       }
+       MenuOptions{
+         Text
+         Link
+         SubOptions{
+           ${btnContent}
+         }
+       }
+       FeatButton{
+         ${btnContent}
+       }
+     }
+   }
+ }
+ uwifiFooter{
+   data{
+     attributes{
+       Button{
+         ${btnContent}
+       }
+       Slogan
+       SocialMedia{
+         ${btnContent}
+       }
+       Textbutton{
+         ${btnContent}
+       }
+       Caption
+     }
+   }
+ }
+ } 
+`;

@@ -13,13 +13,13 @@ export const SectionSteps = component$(() => {
     <div class="flex flex-row gap-5 justify-start items-center">
       <svg class="w-[clamp(50px,5vw,150px)] h-[clamp(50px,10vw,180px)]" alt-arial="Receive icon" xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 129 121" fill="none" data-astro-cid-cdiqt7qs=""> <path d="M52.2222 81.6459L69.5556 87.7659C69.5556 87.7659 112.889 78.5859 118.667 78.5859C124.444 78.5859 124.444 84.7059 118.667 90.8259C112.889 96.9459 92.6667 115.306 75.3333 115.306C58 115.306 46.4444 106.126 34.8889 106.126C23.3333 106.126 6 106.126 6 106.126" stroke="white" stroke-width="10.189" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-cdiqt7qs=""></path> <path d="M6 73.9014C11.7778 67.3532 23.3333 57.531 34.8889 57.531C46.4444 57.531 73.8889 70.6273 78.2222 77.1755C82.5556 83.7236 69.5556 93.5458 69.5556 93.5458" stroke="white" stroke-width="10.189" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-cdiqt7qs=""></path> <path d="M40.6665 35.7455V11.2655C40.6665 7.88552 43.2532 5.14551 46.4443 5.14551H115.778C118.969 5.14551 121.555 7.88552 121.555 11.2655V60.2255" stroke="white" stroke-width="10.189" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-cdiqt7qs=""></path> <path d="M95.5554 5.14551H66.6665V32.6855H95.5554V5.14551Z" fill="bg-primaryColor" stroke="white" stroke-width="10.189" stroke-linecap="round" stroke-linejoin="round" data-astro-cid-cdiqt7qs=""></path> </svg>
       <p class="font-extrabold text-[40px]">2</p>
-      <p class="md:text-3xl text-xl">Receive your 5G Wi-Fi gateway device.</p>
+      <p class="md:text-3xl text-xl">Purchase and U arrives at your home in 2 days.</p>
     </div>
     <div class="flex flex-row gap-5 justify-start items-center">
       <img class="object-contain w-[clamp(50px,5vw,150px)] h-[clamp(50px,10vw,180px)]" src="https://uwif-astro-web.vercel.app/image/movilconlogo.png" alt="" width="284" height="522" />
 
       <p class="font-extrabold text-[40px]">3</p>
-      <p class="md:text-3xl text-xl">Download our app and get set up in minutes.</p>
+      <p class="md:text-3xl text-xl">Unbox and plug U in – instant U-wifi!</p>
     </div>
   </div>
   <div class="flex flex-col md:w-1/5 w-1/3 justify-center items-center gap-5">

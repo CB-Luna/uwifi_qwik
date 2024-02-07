@@ -3,12 +3,12 @@ import { Navbar } from "./Navbar";
 import { Footer } from "./Footer";
 
 export const MainLayout = component$(({ data }: { data: any }) => {
-  console.log(data);
+  const layoutData = data["data"];
   return (
     <>
-      <Navbar />
+      <Navbar data={layoutData['uwifiMenu']['data']['attributes']} />
       <Slot />
-      <Footer />
+      <Footer data={layoutData['uwifiFooter']['data']['attributes']}/>
     </>
   );
 });

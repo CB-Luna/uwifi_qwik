@@ -19,14 +19,14 @@ export const BuyNowCarousel = component$(() => {
       <div class="flex h-[110px] gap-8 overflow-hidden border-y border-white bg-black">
         <div id="buyNowCarousel1" class="flex gap-8">
           {Array(10)
-            .fill()
+            
             .map((_, i) => (
               <BuyNowCard key={i} />
             ))}
         </div>
         <div id="buyNowCarousel2" class="flex gap-8">
           {Array(10)
-            .fill()
+            
             .map((_, i) => (
               <BuyNowCard key={i} />
             ))}

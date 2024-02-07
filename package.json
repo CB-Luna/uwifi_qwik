@@ -45,6 +45,9 @@
   },
   "dependencies": {
     "@qwikest/icons": "^0.0.13",
-    "marked": "^11.2.0"
+    "marked": "^11.2.0",
+    "qwik-speak": "^0.16.0"
   }
+
+  
 }
